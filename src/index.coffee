@@ -51,9 +51,9 @@ getColorData = (colorType) ->
 
 
 convertRawToPixelList = (imageData, callback) ->
-  async.times imageData.height, (y, nextY) ->
+  async.times imageData.height / 2, (y, nextY) ->
     async.times imageData.width, (x, nextX) ->
-      index = imageData.width * y * 4 + x * 4
+      index = imageData.width * y * 2 * 4 + x * 4
       r = parseInt imageData.data[index]
       g = parseInt imageData.data[index + 1]
       b = parseInt imageData.data[index + 2]

@@ -62,10 +62,10 @@ getColorData = function(colorType) {
 };
 
 convertRawToPixelList = function(imageData, callback) {
-  return async.times(imageData.height, function(y, nextY) {
+  return async.times(imageData.height / 2, function(y, nextY) {
     return async.times(imageData.width, function(x, nextX) {
       var b, g, index, pixel, r;
-      index = imageData.width * y * 4 + x * 4;
+      index = imageData.width * y * 2 * 4 + x * 4;
       r = parseInt(imageData.data[index]);
       g = parseInt(imageData.data[index + 1]);
       b = parseInt(imageData.data[index + 2]);

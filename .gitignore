@@ -1,3 +1,4 @@
 node_modules/
+dest/output.sh
 *.swp
 test*.jpg
