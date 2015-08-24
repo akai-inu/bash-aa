@@ -1,0 +1,24 @@
+{
+  "name": "bash-aa",
+  "version": "0.0.1",
+  "description": "AsciiArt Generator for bash 1/16/256 colors",
+  "main": "dest/index.js",
+  "scripts": {
+    "test": "coffee -cb -o dest src/**.coffee && NODE_ENV=development node dest/index.js --color256 test4.jpg"
+  },
+  "keywords": [
+    "aa",
+    "asciiart",
+    "bash"
+  ],
+  "author": "akai-inu",
+  "license": "MIT",
+  "dependencies": {
+    "argv": "0.0.2",
+    "async": "^1.4.2",
+    "jpeg-js": "^0.1.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  }
+}
