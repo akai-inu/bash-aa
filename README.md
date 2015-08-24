@@ -7,6 +7,8 @@ generate bash colorized block from jpeg image.
 ## Usage
 
 ```bash
+ $ git clone https://github.com/akai-inu/bash-aa.git
+ $ cd bash-aa
  $ npm install
  $ node start /path/to/file.jpg
  $ bash dest/output.sh
@@ -42,6 +44,8 @@ jpeg画像から bash カラーブロックを生成します。
 ## 利用方法
 
 ```bash
+ $ git clone https://github.com/akai-inu/bash-aa.git
+ $ cd bash-aa
  $ npm install
  $ node start /path/to/file.jpg
  $ bash dest/output.sh
