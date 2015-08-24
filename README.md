@@ -30,7 +30,7 @@ will show color blocks when you login.
 
 ## After
 
-![after](example/ss1.jpg)
+![after](example/ss1.png)
 
 
 # Bash AA 日本語版
